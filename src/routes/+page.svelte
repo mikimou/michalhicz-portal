@@ -82,7 +82,7 @@
 	<div style="white-space: nowrap;">
 		<button on:click={cloud} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Cloud</button>
 		<button on:click={mc} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">MC portal</button>
-		<button on:click={hosting} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Hosting</button>
+		<button on:click={hosting} class="drac-btn drac-bg-red drac-m-sm drac-btn-lg drac-btn-outline" disabled={true} >Hosting</button>
 	</div>
 	<div style="white-space: nowrap;">
 
