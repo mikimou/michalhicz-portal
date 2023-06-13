@@ -1,8 +1,4 @@
 <script>
-	import Counter from './Counter.svelte';
-	import logo from '$lib/images/airisp.png';
-	import { redirect } from '@sveltejs/kit';
-
 	async function kasm() {
 		window.location.assign("https://kasm.michalhicz.eu/");
 	}
