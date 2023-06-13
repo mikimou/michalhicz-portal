@@ -92,9 +92,9 @@
 		<button on:click={api} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">n8n API</button>
 		<button on:click={lyrics} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Lyrics A.I.</button>
 		<button on:click={ebooks} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Ebooks</button>
-		<button on:click={host} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Host (ptero)</button>
 	</div>
 	<div style="white-space: nowrap;">
+		<button on:click={host} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Host (ptero)</button>
 		<button on:click={railway} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Railway Cloud</button>
 		<button on:click={kasm} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Kasm</button>
 	</div>
@@ -103,6 +103,8 @@
 		<button on:click={proxy} class="drac-btn drac-bg-red-transparent drac-btn-ghost drac-text-red drac-m-sm drac-btn-lg">Proxy</button>
 		<button on:click={proxy2} class="drac-btn drac-bg-red-transparent drac-btn-ghost drac-text-red drac-m-sm drac-btn-lg">Proxy2</button>
 		<button on:click={portainer} class="drac-btn drac-bg-red-transparent drac-btn-ghost drac-text-red drac-m-sm drac-btn-lg">Portainer</button>
+	</div>
+	<div style="white-space: nowrap;">
 		<button on:click={portainer2} class="drac-btn drac-bg-red-transparent drac-btn-ghost drac-text-red drac-m-sm drac-btn-lg">Portainer2</button>
 	</div>
 	{/if}
