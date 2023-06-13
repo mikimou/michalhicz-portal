@@ -59,7 +59,7 @@
 
 	<div style="height: 6em"></div>
 	<div class="drac-box">
-		<ul class="drac-tabs drac-tabs-red">
+		<ul style="cursor: pointer;" class="drac-tabs drac-tabs-red">
 		  <li class="{current === 'publicc' ? 'drac-tab drac-tab-active' : 'drac-tab'}">
 			<a class="drac-tab-link drac-text" on:click={() => current = 'publicc'} >Public Apps</a>
 		  </li>
