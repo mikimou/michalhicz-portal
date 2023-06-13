@@ -65,13 +65,13 @@
 	<div class="drac-box">
 		<ul class="drac-tabs drac-tabs-red">
 		  <li class="{current === 'publicc' ? 'drac-tab drac-tab-active' : 'drac-tab'}">
-			<a class="drac-tab-link drac-text" on:click={() => current = 'publicc'} href="">Public Apps</a>
+			<a class="drac-tab-link drac-text" on:click={() => current = 'publicc'} >Public Apps</a>
 		  </li>
 		  <li class="{current === 'private' ? 'drac-tab drac-tab-active' : 'drac-tab'}">
-			<a class="drac-tab-link drac-text" on:click={() => current = 'private'} href="">Private Apps</a>
+			<a class="drac-tab-link drac-text" on:click={() => current = 'private'} >Private Apps</a>
 		  </li>
 		  <li class="{current === 'admin' ? 'drac-tab drac-tab-active' : 'drac-tab'}">
-			<a class="drac-tab-link drac-text" on:click={() => current = 'admin'} href="">Admin Apps</a>
+			<a class="drac-tab-link drac-text" on:click={() => current = 'admin'} >Admin Apps</a>
 		  </li>
 		</ul>
 	</div>
