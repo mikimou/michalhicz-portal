@@ -76,7 +76,7 @@
 		</ul>
 	</div>
 	<div style="height: 2em"></div>
-	
+	<div style="height: 8em; align-items: center;">
 	{#if current == "publicc"}
 	<div style="white-space: nowrap;">
 		<button on:click={cloud} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Cloud</button>
@@ -105,7 +105,7 @@
 		<button on:click={portainer2} class="drac-btn drac-bg-red-transparent drac-btn-ghost drac-text-red drac-m-sm drac-btn-lg">Portainer2</button>
 	</div>
 	{/if}
-	
+	</div>
 </section>
 
 <style>
