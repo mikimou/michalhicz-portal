@@ -11,10 +11,9 @@
 </script>
 
 <header>
-	<!--
-	<div class="corner">
-		<button on:click={redirectt} style="margin-top: 1em; margin-left:1em; width:13em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
-		návrh na zlepšenie</button>
+	
+	<!--<div class="corner">
+		
 	</div>-->
 
 	<!-- <nav>
@@ -34,13 +33,17 @@
 		</svg>
 	</nav> -->
 
-<!--
+	<!--
 	<div class="corner">
-		<a href="https://github.com/">
-			<img class="white" src={github} alt="GitHub" />
-		</a>
-	</div>
--->
+		<div>
+			<div style="position: relative;margin-top: 1em;margin-left: -1em; width: 2.5em;">
+				<select style="padding-right: 0.5em!important; padding-left: 0.5em!important;" class="drac-select drac-select-sm drac-select-white">
+				  <option value="default" disabled={false} selected={true}>en</option>
+				  <option>sk</option>
+				</select>
+			  </div>
+	</div>-->
+
 </header>
 
 <style>
