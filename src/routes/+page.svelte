@@ -76,7 +76,7 @@
 		</ul>
 	</div>
 	<div style="height: 2em"></div>
-	<div style="height: 8em; align-items: center;">
+	<div class="buttons">
 	{#if current == "publicc"}
 	<div style="white-space: nowrap;">
 		<button on:click={cloud} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Cloud</button>
@@ -109,6 +109,9 @@
 </section>
 
 <style>
+	.buttons {
+		height: 8em;
+	}
 	section {
 		display: flex;
 		flex-direction: column;
