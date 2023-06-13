@@ -17,7 +17,7 @@
 	</main>
 
 	<footer>
-		<p class="drac-text drac-text-white">{year} Michal Hicz</p>
+		<p class="drac-text drac-text-grey-secondary">{year} Michal Hicz</p>
 	</footer>
 </div>
 
