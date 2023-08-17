@@ -38,6 +38,9 @@
 	async function portainer2() {
 		window.location.assign("https://portainer2.michalhicz.eu/");
 	}
+	async function portf() {
+		window.location.assign("https://michalhicz.eu/");
+	}
 
 	let current = "publicc";
 
@@ -77,8 +80,8 @@
 	{#if current == "publicc"}
 	<div style="white-space: nowrap;">
 		<button on:click={cloud} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Cloud</button>
-		<button on:click={mc} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">MC portal</button>
-		<button on:click={hosting} class="drac-btn drac-bg-red drac-m-sm drac-btn-lg drac-btn-outline" disabled={true} >Hosting</button>
+		<button on:click={portf} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Portfolio</button>
+		<button on:click={lyrics} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Lyrics A.I.</button>
 	</div>
 	<div style="white-space: nowrap;">
 
@@ -86,8 +89,8 @@
 	{:else if current == "private"}
 	<div style="white-space: nowrap;">
 		<button on:click={api} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">n8n API</button>
-		<button on:click={lyrics} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Lyrics A.I.</button>
 		<button on:click={ebooks} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Ebooks</button>
+		<button on:click={mc} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">MC portal</button>
 	</div>
 	<div style="white-space: nowrap;">
 		<button on:click={host} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Host (ptero)</button>
