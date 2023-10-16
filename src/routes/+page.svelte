@@ -54,9 +54,6 @@
 <section>
 	
 	<div class="welcome">
-		<!-- <picture>
-			<img src={logo} alt="" />
-		</picture> -->
 		<h2 class="drac-heading drac-text-bold drac-heading-2xl drac-text-yellow-pink">App portal</h2>
 	</div>
 
