@@ -41,6 +41,9 @@
 	async function portf() {
 		window.location.assign("https://michalhicz.eu/");
 	}
+	async function uptime() {
+		window.location.assign("https://uptime.michalhicz.eu/");
+	}
 
 	let current = "publicc";
 
@@ -76,7 +79,7 @@
 		<center>
 	{#if current == "publicc"}
 	<div style="white-space: nowrap;">
-		<button on:click={cloud} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Cloud</button>
+		<button on:click={uptime} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Uptime</button>
 		<button on:click={portf} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Portfolio</button>
 		<button on:click={lyrics} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Lyrics A.I.</button>
 	</div>
