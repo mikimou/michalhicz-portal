@@ -90,12 +90,12 @@
 	<div style="white-space: nowrap;">
 		<button on:click={api} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">n8n API</button>
 		<button on:click={ebooks} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Ebooks</button>
-		<button on:click={mc} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">MC portal</button>
+		<button on:click={kasm} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Kasm</button>
 	</div>
 	<div style="white-space: nowrap;">
 		<button on:click={host} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Host (ptero)</button>
 		<button on:click={railway} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Railway Cloud</button>
-		<button on:click={kasm} class="drac-btn drac-bg-yellow-pink drac-m-sm drac-btn-lg">Kasm</button>
+		
 	</div>
 	{:else if current == "admin"}
 	<div style="white-space: nowrap;">
